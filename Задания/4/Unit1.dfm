@@ -1,0 +1,53 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 280
+  ClientWidth = 579
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Edit1: TEdit
+    Left = 56
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 232
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 408
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 192
+    Top = 120
+    Width = 185
+    Height = 25
+    Caption = #1042#1099#1074#1077#1089#1090#1080' '#1085#1072#1080#1073#1086#1083#1100#1096#1077#1077' '#1080#1079' '#1095#1080#1089#1077#1083
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Edit4: TEdit
+    Left = 224
+    Top = 224
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+end
